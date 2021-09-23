@@ -33,7 +33,7 @@ $(document).ready(function() {
      setInterval(hourlyTimeblock, 1000);
     
     
-     //adding event listener to save button
+     //adding event listener to save button and local storage
      $('.saveBtn').on('click', function(){
         
         var entry = $(this).siblings('.description').val();
@@ -44,7 +44,7 @@ $(document).ready(function() {
         
         
      });
-
+    // To save data
      $('.time-block').each(function(){
          var saveData = $(this).attr('id');
          $(this).children('textarea').val(localStorage.getItem(saveData));
