@@ -7,7 +7,9 @@ Created a workday scheduler using bootstrap, Jquery.
 Used moment.js. Colour coded the hourly blocks depending on whether its the current hour or its already past or is in the future, used local storage to save the entries in the scheduler. 
 
 Image link of the deployed application is below.
-https://user-images.githubusercontent.com/88652187/134549226-0ddc254e-d272-4fab-a47d-ebff4c9e577d.png
+
+![Workdayscheduler](https://user-images.githubusercontent.com/88652187/137766845-cb8a0c3a-fc70-4596-9fe1-80706d6232db.png)
+
 
 
 **LICENSE:**
